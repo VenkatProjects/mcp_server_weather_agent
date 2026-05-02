@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "weather": {
-      "command": "uv",
-      "args": ["run", "--with", "mcp", "mcp", "run", "server/weather.py"]
-    }
-  }
-}
