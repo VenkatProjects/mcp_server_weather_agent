@@ -58,7 +58,5 @@ Both tools work simultaneously!
 
 ## Sample Output Screenshot
 
-```md
 ![Weather Agent Example](assets/weather-output-sample-ca.png)
-```
 
