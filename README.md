@@ -60,3 +60,8 @@ Both tools work simultaneously!
 
 ![Weather Agent Example](assets/weather-output-sample-ca.png)
 
+
+ ## INFO
+
+ - "Create Free API from" [groq](https://groq.com/)
+ - "Create Open API from" [OpenWeather](https://home.openweathermap.org/api_keys)
