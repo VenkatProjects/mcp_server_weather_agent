@@ -41,7 +41,7 @@ async def make_nws_request(url: str) -> dict[str, Any] | None:
 
 
 async def make_weather_request(url: str) -> dict[str, Any] | None:
-    """Make a request to the wttr.in API with proper error handling."""
+    """Make a request to the OpenWeatherMap API with proper error handling."""
     async with httpx.AsyncClient() as client:
         try:
             response = await client.get(url, timeout=30.0)
