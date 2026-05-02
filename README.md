@@ -63,5 +63,5 @@ Both tools work simultaneously!
 
  ## INFO
 
- - "Create Free API from" [groq](https://groq.com/)
- - "Create Open API from" [OpenWeather](https://home.openweathermap.org/api_keys)
+ - Create Free API from [groq](https://groq.com/)
+ - Create Open API from [OpenWeather](https://home.openweathermap.org/api_keys)
