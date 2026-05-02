@@ -4,15 +4,15 @@ A comprehensive weather MCP server with US alerts and global weather data.
 
 ## Features
 - **US Weather Alerts**: Get active weather alerts for any US state using NWS API (free, no API key needed).
-- **Global Current Weather**: Get current weather for any city worldwide using wttr.in API (free, no API key needed).
+- **Global Current Weather & Alerts**: Get current weather and alerts for any city worldwide using OpenWeatherMap API (free API key required).
 
 ## Setup
 
-After cloning, run the following commands from the `weatheragent` folder:
+After cloning, run the following commands:
 
 ```bash
 git clone <repo-url>
-cd mcp_server_weather_agent/weatheragent
+cd mcp_server_weather_agent
 uv sync
 ```
 
@@ -23,9 +23,9 @@ python -m pip install uv
 ```
 
 ### OpenWeatherMap API key
-The global weather tool uses OpenWeatherMap and requires a free API key.
+The global weather tool uses OpenWeatherMap and requires a free API key for detailed weather and alerts.
 
-Create a `.env` file in the `weatheragent` folder with:
+Create a `.env` file in the project root with:
 
 ```bash
 OPENWEATHER_API_KEY=your_api_key_here
@@ -36,6 +36,8 @@ Alternatively, set the variable directly in your shell:
 ```bash
 export OPENWEATHER_API_KEY=your_api_key_here
 ```
+
+Get your free key at [OpenWeatherMap API](https://openweathermap.org/api).
 
 ## Running
 
