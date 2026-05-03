@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+server/__init__.py
+server/client.py
+server/weather.py
+weatheragent.egg-info/PKG-INFO
+weatheragent.egg-info/SOURCES.txt
+weatheragent.egg-info/dependency_links.txt
+weatheragent.egg-info/entry_points.txt
+weatheragent.egg-info/requires.txt
+weatheragent.egg-info/top_level.txt
